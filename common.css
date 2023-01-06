@@ -1,0 +1,39 @@
+/* font */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800;900&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+/* rib */
+.con-min-width {
+  min-width: var(--site-width);
+}
+
+.con {
+  width: var(--site-width);
+}
+
+/* custom */
+:root {
+  --site-width: 1920px;
+}
+
+.loading {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.loading::after {
+  content: "로딩중..";
+}

@@ -1,0 +1,28 @@
+/* custom_header */
+html>body {
+  color: #00ac8e;
+}
+
+.top_bar_logo {
+  top: 46px;
+  left: 280px;
+}
+
+.main_bg_text_1 {
+  top: 308px;
+  left: 280px;
+}
+
+.top_bar_menu {
+  top: 54px;
+  left: 952px;
+}
+
+.top_bar_menu>li:hover {
+  color: #F4ECD3;
+  transition: .3s linear;
+}
+
+canvas {
+  filter: blur(1px);
+}
